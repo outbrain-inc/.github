@@ -1,0 +1,4 @@
+{
+  "name": "Publish To Maven Central",
+  "description": "Publishes the artifact to Maven Central"
+}
