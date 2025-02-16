@@ -24,7 +24,7 @@ jobs:
       - name: Checkout with token
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.OB_AYOUK_GH_TOKEN }}
           fetch-depth: 0  # Fetch all history for all tags and branches
       - name: Publish to Apache Maven Central
         run: |
